@@ -1,0 +1,13 @@
+.main-information{
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.intro{
+  font-size: 50px;
+}
+
+p{
+  margin:0;
+}

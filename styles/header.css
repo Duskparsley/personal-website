@@ -1,0 +1,47 @@
+.header{
+  border: 1px solid black;
+  border-right: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: fixed;
+  top:0;
+  right:0;
+  left:0;
+
+  height:60px;
+  background-color:red;
+}
+
+.left-section{
+  font-family:Roboto, Arial;
+  font-size: 27px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  width:200px;
+}
+
+
+.right-section{
+  display:flex;
+  justify-content: center;
+  width:100px;
+}
+
+.contact{
+  height: 60px;
+  background-color: white;
+  border: 1px solid lightgrey;
+  border-bottom: none;
+  border-right: none;
+  width:100%;
+  font-family: Roboto, Arial;
+}
+
+.contact:hover{
+  cursor: pointer;
+  border-bottom: 4px solid rgb(182, 182, 182);
+}
+
