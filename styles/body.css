@@ -13,6 +13,68 @@
   font-size: 50px;
 }
 
+.main-text{
+  font-size: 25px;
+  margin-bottom:40px;
+}
+
+.text-image-container{
+  z-index: 100;
+  display:flex;
+  margin-top:50px;
+  margin-left:500px;
+  margin-right:500px;
+  padding:10px;
+
+  border-radius: 5px;
+  border: 1px solid rgb(0,48,135);
+  box-shadow: 0 0 15px rgb(80, 78, 78) ;
+  max-height: 300px;
+  position: relative;
+}
+
+.school-id-info-container{
+  padding-left:7px;
+  overflow: hidden;
+  z-index: 50;
+}
+
+.school-id-info-container p{
+  margin-bottom:2px;
+  color:white;
+}
+
+.school-id-info-container b{
+  color:rgb(250,70,22);
+}
+
+.gator-logo{
+  height:85px;
+  margin:0px;
+}
+
+.gator-logo-container{
+  display:flex;
+  justify-content:right;
+}
+
+.blue-stripe{
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:65px;
+  background-color: rgb(0,48,135);
+  height:100px;
+  z-index: 1;
+}
+
+.my-image{
+  border-radius: 5px;
+  height:300px;
+  margin-right:7px;
+  z-index: 50;
+}
+
 p{
   margin:0;
 }
@@ -20,7 +82,7 @@ p{
 .footer{
   display:flex;
   flex-direction: column;
-  height: 100%;
+  height: 300px;
   align-items: center;
 }
 

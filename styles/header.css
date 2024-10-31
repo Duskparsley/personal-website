@@ -1,4 +1,5 @@
 header{
+  z-index: 200;
   border: 1px solid black;
   border-right: none;
   display: flex;
@@ -30,6 +31,11 @@ header{
   width:100px;
 }
 
+.left-section .contact{
+  font-size: 25px;
+  border-right: 1px solid lightgray;
+}
+
 .contact{
   height: 60px;
   background-color: white;
@@ -42,6 +48,9 @@ header{
 
 .contact:hover{
   cursor: pointer;
-  border-bottom: 4px solid rgb(182, 182, 182);
+  border-bottom: 4px solid rgb(0, 48, 135);
 }
 
+.contact:active{
+  background-color: grey;
+}
