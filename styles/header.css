@@ -28,13 +28,14 @@ header{
 .right-section{
   display:flex;
   justify-content: center;
-  width:100px;
+  width:300px;
+
 }
 
 .left-section .contact{
   font-size: 25px;
-  border-right: 1px solid lightgray;
 }
+
 
 .contact{
   height: 60px;
@@ -42,9 +43,10 @@ header{
   border: 1px solid lightgrey;
   border-bottom: none;
   border-right: none;
-  width:100%;
+  width: 100%;
   font-family: Roboto, Arial;
 }
+
 
 .contact:hover{
   cursor: pointer;
