@@ -20,11 +20,13 @@
 
 .text-image-container{
   z-index: 100;
-  display:flex;
   margin-top:50px;
   margin-left:500px;
   margin-right:500px;
   padding:10px;
+  display: grid;
+  grid-template-columns: 270px 250px;
+
 
   border-radius: 5px;
   border: 1px solid rgb(0,48,135);
@@ -35,8 +37,12 @@
 
 .school-id-info-container{
   padding-left:7px;
-  overflow: hidden;
   z-index: 50;
+}
+
+.image-container{
+  z-index: 50;
+  white-space: no-wrap;
 }
 
 .school-id-info-container p{
